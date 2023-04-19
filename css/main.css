@@ -1,0 +1,75 @@
+.hero {
+  padding-bottom: 80px;
+}
+
+.hero__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 34px;
+  margin: 0;
+  padding: 40px 20px 20px;
+  color:#000000bb;
+}
+
+.label__hero__search {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.hero__search {
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 14px #dad4d4d5;
+  margin-left: 20px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
+
+.hero__search:focus {
+  outline: 1px solid #59648396;
+  outline-offset: -2px;
+}
+
+.users {
+  width: 50%;
+  height: calc(100vh - 160px);
+  overflow: auto;
+  padding: 0 20px 40px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 5px;
+  background: radial-gradient(#eff2f5, #dbe0e6);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.user__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.user__name {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
+
+.user__none {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: tomato;
+}
+
+.footer {
+  height: 200px;
+  background-color: #221b1b;
+}
